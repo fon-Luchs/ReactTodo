@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTpyes from 'prop-types';
+import PropTypes from 'prop-types';
 
 import Checkbox from './Checkbox.jsx';
 import Delete from './Delete.jsx';
@@ -16,8 +16,8 @@ const Todo = (props) => (
 );
 
 Todo.propTypes = {
-    title: PropTpyes.string.isRequired,
-    completed: PropTpyes.bool.isRequired
+    title: PropTypes.string.isRequired,
+    completed: PropTypes.bool.isRequired
 };
 
 export default Todo;

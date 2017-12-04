@@ -9,6 +9,6 @@ const Checkbox = (props) => (
 
 Checkbox.propTypes = {
     checked: PropTypes.bool.isRequired
-}
+};
 
 export default Checkbox;
