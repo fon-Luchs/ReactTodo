@@ -34,7 +34,7 @@ export default class App extends Component {
 						<Todo title="Сломать олега" completed={false}/>
 					</sectin>
 
-					<Footer textSize={140}/>
+					<Footer textSize={40}/>
 				</Paper>
 			</main>
 

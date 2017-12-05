@@ -1,16 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import TodoListItem from './TodoListItem.jsx';
 import Checkbox from './Checkbox.jsx';
 import Delete from './Delete.jsx';
-import Open from './Open.jsx';
 
 const Todo = (props) => (
     <div className="todo">
-        <Checkbox  checked={props.completed}/>
-        <span className="todo-title">   {props.title}  	</span>
-        <Open />
-        <Delete />
+        <TodoListItem title={"Построить React TODO"} />
+        {/*
+            <Checkbox  checked={props.completed}/>
+            <span className="todo-title">   {props.title}  	</span>
+            <Delete />
+        */}
     </div>
 
 );
